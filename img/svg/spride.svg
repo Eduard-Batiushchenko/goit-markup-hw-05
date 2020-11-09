@@ -1,5 +1,8 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="is-closed" viewBox="0 0 32 32">
+<path d="M32 3.223l-3.223-3.223-12.777 12.777-12.777-12.777-3.223 3.223 12.777 12.777-12.777 12.777 3.223 3.223 12.777-12.777 12.777 12.777 3.223-3.223-12.777-12.777 12.777-12.777z"></path>
+</symbol>
 <symbol id="client1" viewBox="0 0 60 32">
 <path d="M24.533 7.111l2.598 2.46h7.248v6.861l2.598 2.46v-11.781h-12.444z"></path>
 <path d="M22.4 9.467v11.444h12.089v-4.549l-7.281-6.892-4.808-0.003zM32.186 19.238h-7.873v-7.697h0.556v7.176h7.317v0.521z"></path>

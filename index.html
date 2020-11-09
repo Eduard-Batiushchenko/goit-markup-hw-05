@@ -53,7 +53,17 @@
         <section class="heroic">
             <div class="container">
                 <h1 class="title">Эффективные решения для вашего бизнеса</h1>
-                <button class="button" type="button">Заказать услугу</button>
+                <button data-modal-open="" class="button"> Заказать услугу</button>
+            </div>
+            <div class="backdrop is-hidden" data-modal="">
+                <div class="modal">
+                    <button class="button-modal-icon" data-modal-close>
+                        <svg class="modal-icon" width="11px" height="11px">
+                            <use href="./img/svg/spride.svg#is-closed">
+                            </use>
+                        </svg>
+                    </button>
+                </div>
             </div>
         </section>
 
@@ -98,12 +108,21 @@
                 <ul class="list">
                     <li class="item">
                         <img src="./img/about-us.jpg" alt="Мужчина работает" width="370">
+                    <div class="modal-block">
+                        <p class="modal-text">Десктопные приложения</p>
+                    </div>
                     </li>
                     <li class="item">
                         <img src="./img/about-us1.jpg" alt="Мужчина работает" width="370">
+                    <div class="modal-block">
+                        <p class="modal-text">Мобильные приложения</p>
+                    </div>
                     </li>
                     <li class="item">
                         <img src="./img/about-us2.jpg" alt="Мужчина работает" width="370">
+                    <div class="modal-block">
+                        <p class="modal-text">Дизайнерские решения</p>
+                    </div>
                     </li>
                 </ul>
             </div>
@@ -363,9 +382,10 @@
                 </ul>
 
             </section>
-            
+
         </div>
     </footer>
 
+    <script src="./js/modal.js"></script>
 </body>
 </html>
